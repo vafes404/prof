@@ -1,0 +1,10 @@
+User-Agent: *
+Allow: /assets/css/*.css
+Allow: /assets/js/*.js
+Disallow: /reg.php
+Disallow: /auto.php
+Disallow: /admin.php
+Disallow: /shopping-cart.php
+
+Host: https://prof.ru
+Sitemap: http://prof.ru/sitemap.xml
