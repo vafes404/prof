@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/basket.css">
+    <title>Корзина</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <div class="container">
+                <div class="menu__inner">
+                    <div class="logo">
+                        <img class="logo-img" src="/assets/img/logo1.png" alt="">
+                    </div>
+                    <ul class="nav">
+                        <li><a href="/index.html">Главная</a></li>
+                        <li><a href="/catalog.html">Каталог</a></li>
+                        <li><a href="/about_us.html">О нас</a></li>
+                        <li><a href="/profile.html">Личный кабинет</a></li>
+                    </ul>
+                    <div class="btn-group">
+                        <div class="shopping_cart">
+                            <a href=""><img src="/assets/img/shopping-cart.png" alt=""></a>
+                        </div>
+                        <div class="btn__login">
+                            <button class="btn-login" onclick="location.href='/auto.html'">ВОЙТИ</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    <h2 class="title">Корзина</h2>
+    <div class="basket">
+    <div class="container_basket">
+        <div class="item">
+            <div class="course graphic">
+                <div class="course-img">
+                    <img src="/assets/img/graphic.png" alt="">
+                </div>
+                <div class="course-text">
+                    <h2>Графический дизайнер</h2>
+                    <p>Этот курс научит вас создавать красивые макеты сайтов, логотипов и многое другое</p>
+                    <p>Продолжительность: 2 месяца</p>
+                    <p>Цена: 6000</p>
+                </div>
+                    <a href="#" class="detail-course">Удалить</a>
+                </div>
+            </div>
+            
+        </div>
+    <div class="bank_card">
+        <h2>Введите данные карты</h2>
+        <form>
+          <div class="form-group">
+            <label for="cardNumber">Номер карты:</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="XXXX-XXXX-XXXX-XXXX" required>
+          </div>
+          <div class="secret">
+          <div class="form-group">
+            <label for="expirationDate">Срок действия:</label>
+            <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
+          </div>
+          <div class="form-group">
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="XXX" required>
+          </div>
+        </div>
+            <div class="line-pay"></div>
+            <div class="sum">
+                <p>Итого</p>
+                <p>$1,668</p>
+            </div>
+          <div class="form-group">
+            <input type="submit" value="Оплатить">
+          </div>
+        </form>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <div class="container_footer">
+            <div class="col">
+                <div class="info-footer">
+                    <h3>Контакты</h3>
+                    <ul class="nav-footer">
+                        <li>г. Ханты-Мансийск</li>
+                        <li>prof@prof.ru</li>
+                        <li>+8-800-555-35-35</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <div class="info-footer">
+                    <h3>Курсы</h3>
+                    <ul class="nav-footer">
+                        <li><a href="/course_1.html">PYTHON</a></li>
+                        <li><a href="/course_2.html">Химия</a></li>
+                        <li><a href="/course_3.html">Графический дизайнер</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col">
+                <h4>Мы в социальных сетях</h4>
+                <div class="col_social">
+                    <div class="item__icon-footer">
+                        <a class="icon" href=""><i class="fa fa-vk" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="item__icon-footer">
+                        <a  class="icon" href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="item__icon-footer">
+                        <a class="icon" href=""><i class="fa fa-facebook" ></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
