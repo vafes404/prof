@@ -6,5 +6,5 @@ Disallow: /auto.php
 Disallow: /admin.php
 Disallow: /shopping-cart.php
 
-Host: https://prof.ru
-Sitemap: http://prof.ru/sitemap.xml
+Host: https://profess.netlify.app
+Sitemap: https://profess.netlify.app/sitemap.xml
